@@ -97,7 +97,6 @@ export class DatePickerInnerComponent implements OnInit, OnChanges {
   }
 
   // this.refreshView should be called here to reflect the changes on the fly
-  // tslint:disable-next-line:no-unused-variable
   ngOnChanges(changes: SimpleChanges): void {
     this.refreshView();
     this.checkIfActiveDateGotUpdated(changes.activeDate);

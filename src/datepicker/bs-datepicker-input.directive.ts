@@ -57,7 +57,6 @@ export class BsDatepickerInputDirective
   implements ControlValueAccessor, Validator {
   private _onChange = Function.prototype;
   private _onTouched = Function.prototype;
-  /* tslint:disable-next-line: no-unused-variable */
   private _validatorChange = Function.prototype;
   private _value: Date;
 

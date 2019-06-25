@@ -1,4 +1,3 @@
-/* tslint:disable: no-unused-variable */
 import { AccordionModule } from './accordion/accordion.module';
 import { AlertModule } from './alert/alert.module';
 import { BsDatepickerInlineConfig } from './datepicker/bs-datepicker-inline.config';

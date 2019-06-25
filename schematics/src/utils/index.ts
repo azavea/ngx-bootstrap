@@ -121,7 +121,7 @@ export function addPackageToPackageJson(host: Tree, pkg: string, version: string
 export function createTestApp(runner: SchematicTestRunner, appOptions = {}): Observable<UnitTestTree> {
   return runner.runExternalSchematicAsync('@schematics/angular', 'workspace', {
     name: 'workspace',
-    version: '8.0.1',
+    version: '8.0.3',
     newProjectRoot: 'projects'
   })
     .pipe(

@@ -374,7 +374,6 @@ describe('Component: TypeaheadContainer', () => {
 
   describe('scrollable matches', () => {
     let itemMatches: HTMLLIElement[];
-    /* tslint:disable-next-line: no-unused-variable */
     let headerMatch: HTMLLIElement;
     let containingElementScrollable: HTMLElement[];
 
